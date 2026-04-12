@@ -216,7 +216,6 @@ class LoaderComponent extends React.Component {
                 })}
             >
                 <div className={styles.container}>
-                 <div className={styles.container}>
                     <div className={styles.blockAnimation}>
                         <img src={sprunki} alt="A Sprunki!" />
                     </div>
@@ -237,10 +236,12 @@ class LoaderComponent extends React.Component {
                             />
                         </div>
                     )}
+                    <br /><br />
+                    Tips:<p dangerouslySetInnerHTML={{__html: this.unhelpfulTip}} />
                 </div>
             </div>
         );
-    }
+    }    
 }
 
 LoaderComponent.propTypes = {
