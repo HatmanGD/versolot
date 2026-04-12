@@ -514,7 +514,7 @@ const menuItems = [
             ],
             featured: true,
             extensionWarningOnImport: true
-        }
+        },
     {
         name: (
             <FormattedMessage
