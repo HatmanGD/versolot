@@ -237,7 +237,7 @@ class LoaderComponent extends React.Component {
                         </div>
                     )}
                     <br /><br />
-                    Tips:<p dangerouslySetInnerHTML={{__html: this.unhelpfulTip}} />
+                    <h2><p dangerouslySetInnerHTML={{__html: this.unhelpfulTip}} /></h2>
                 </div>
             </div>
         );
