@@ -58,17 +58,17 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                PenguinMod Credits
+                Versolot Credits
             </h1>
         </header>
         <section>
-            <h1>PenguinMod</h1>
+            <h1>Versolot</h1>
         </section>
         <section>
             <h2>Thank you</h2>
             <p>
-                Without TurboWarp, PenguinMod may have never existed.
-                Thank you to everyone who worked on Scratch and TurboWarp,
+                Without PenguinMod, Versolot may have never existed.
+                Thank you to everyone who worked on Scratch, TurboWarp and PenguinMod,
                 you have made many people finally be able to make whatever they can imagine.
             </p>
             <a href="https://scratch.mit.edu/donate">
@@ -83,27 +83,27 @@ const Credits = () => (
             <h2>Our Supporters</h2>
             <p>
                 We rely on the support of our users to keep running parts of the website for free.
-                You do not need to support PenguinMod if you do not want to, but it will help us run the services that power
+                You do not need to support Versolot if you do not want to, but it will help us run the services that power
                 our project sharing and other online features.
             </p>
             <a href="https://penguinmod.com/support">
-                Support PenguinMod
+                Support Versolot
             </a>
             <br></br>
             <UserList users={UserData.pmSupporters} golden={true} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <h2>Contributors</h2>
             <p>
-                PenguinMod is made by a small bunch of developers.
-                A list is below, but you can also check <a href="https://github.com/orgs/PenguinMod/people">our GitHub</a> incase this one is out of date.
+                Versolot is made by a one developer.
+                A list is below, but you can also check <a href="https://github.com/orgs/Versolot/people">our GitHub</a> incase this one is out of date.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
-            <p>There are even community members who have helped develop PenguinMod. People like <i>you!</i></p>
+            <p>There are even community members who have helped develop Versolot. People like <i>you!</i></p>
             <UserList users={UserData.pmPullRequestDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>
-                We've also included work from other open-source projects inside of PenguinMod.
+                We've also included work from other open-source projects inside of Versolot.
                 Here's a list of some other projects you should check out:
             </p>
             <UserList users={UserData.pmCodeUsedFrom} />
@@ -114,7 +114,7 @@ const Credits = () => (
         </section>
         <section>
             <h2>GitHub Pages</h2>
-            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host PenguinMod.</p>
+            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host Versolot.</p>
             <a href="https://pages.github.com/">
                 <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png"
@@ -122,27 +122,6 @@ const Credits = () => (
                     height="160"
                 />
             </a>
-            <h2>Domain Provider</h2>
-            <p>
-                <a href="https://penguinmod.com">penguinmod.com</a> (and any subdomains) are currently
-                provided by <a href="https://github.com/enderhacker">enderhacker</a>.
-                <br></br>
-                <a href="https://github.com/enderhacker">
-                    <img src="https://avatars.githubusercontent.com/u/61245488?v=4" style={{ width: "128px" }}></img>
-                </a>
-            </p>
-            <h2>Server Host</h2>
-            <p>
-                PenguinMod's Project Sharing server is currently hosted by <a href="https://github.com/ianyourgod">ianyourgod</a>.
-                <br></br>
-                <a href="https://github.com/ianyourgod">
-                    <img src="https://avatars.githubusercontent.com/u/104151459?v=4" style={{ width: "128px" }}></img>
-                </a>
-            </p>
-            <p>
-                The PenguinMod Server API is maintained by many people.
-                A list is below, but you can also check <a href="https://github.com/PenguinMod/PenguinMod-IntermediateBackendApi/graphs/contributors">the GitHub repository</a> incase this one is out of date.
-            </p>
             <UserList users={UserData.pmApiDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <h2>Costumes</h2>
@@ -168,25 +147,14 @@ const Credits = () => (
                     <li><a href="https://discord.gg/NZ9MBMYTZh">User-submissions from the PenguinMod Discord Server</a></li>
                     <li>The PenguinMod Developers</li>
                 </ul>
-                All sounds exclusive to PenguinMod are included under Public Domain licenses or licenses such as MIT and CC0.
+                All sounds exclusive to PenguinMod and Versolot are included under Public Domain licenses or licenses such as MIT and CC0.
             </p>
             <p>This is the current list of user-submitted sound creators:</p>
             <UserList users={UserData.pmSoundSubmittors} />
             <p><i>The list order is randomized on each refresh.</i></p>
-            <h2>Accounts</h2>
-            <p>
-                Scratch login on PenguinMod is managed with <a href="https://oauth2.scratch-wiki.info/">ScratchOAuth2</a>,
-                see their <a href="https://github.com/ScratchVerifier/ScratchOAuth2">GitHub repository</a>.
-                <br />
-                <br />
-                <i>
-                    "ScratchOAuth2" is not actually affiliated with Scratch,
-                    the Scratch Team, or the Scratch Foundation.
-                </i>
-            </p>
         </section>
         <section>
-            <h1>PenguinMod & TurboWarp</h1>
+            <h1>Versolot, PenguinMod & TurboWarp</h1>
         </section>
         <section>
             <h2>Extensions</h2>
@@ -202,22 +170,11 @@ const Credits = () => (
             <UserList users={UserData.extensionDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>
-                PenguinMod also has a few people who made and submitted extensions too!
+                Versolot also has a few people who made and submitted extensions too!
                 This list may get outdated sometimes, but here they are listed below:
             </p>
             <UserList users={UserData.pmExtensionDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
-            <p>
-                The Scratch Auth extension has a login system managed with <a href="https://auth.itinerary.eu.org/">Scratch Auth</a>,
-                created by <a href="https://scratch.mit.edu/users/Looky1173/">Looky1173</a>.
-                (thanks for adding us to the user list!)
-                <br />
-                <br />
-                <i>
-                    "Scratch Auth" is not actually affiliated with Scratch,
-                    the Scratch Team, or the Scratch Foundation.
-                </i>
-            </p>
         </section>
         <section>
             <h2>Addons</h2>
@@ -275,10 +232,10 @@ const Credits = () => (
                 far more than we could hope to list here.
             </p>
             <p>
-                PenguinMod is also (very very slowly) getting translated into other languages, in the future
-                hopefully the same number of languages can be supported. It'll take a while until we get there though.
+                Versolot is also (very very slowly) getting translated into other languages, in the future
+                hopefully the same number of languages can be supported. It'll take a while until we get this shit though.
             </p>
-            <p>Here is the current list of PenguinMod Translators:</p>
+            <p>Here is the current list of Versolot Translators:</p>
             <UserList users={UserData.pmTranslators} />
             <p><i>The list order is randomized on each refresh.</i></p>
         </section>
