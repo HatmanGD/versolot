@@ -217,7 +217,7 @@ class LoaderComponent extends React.Component {
             >
                 <div className={styles.container}>
                     <div className={styles.blockAnimation}>
-                        <img src={sprunki} alt="A Sprunki!" width="50%"/>
+                        <img src={sprunki} alt="A Sprunki!" width="70%"/>
                     </div>
                     <div className={styles.title}>
                         {mainMessages[this.props.messageId]}
