@@ -168,19 +168,19 @@ module.exports = [
             }),
             new HtmlWebpackPlugin({
                 chunks: ['editor'], template: 'src/playground/index.ejs', filename: 'editor.html',
-                title: 'PenguinMod - Editor', ...htmlWebpackPluginCommon
+                title: 'Versolot - Editor', ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['playground'], template: 'src/playground/index.ejs', filename: 'playground.html',
-                title: 'PenguinMod - Playground', ...htmlWebpackPluginCommon
+                title: 'Versolot - Playground', ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'], template: 'src/playground/index.ejs', filename: 'index.html',
-                title: 'PenguinMod - A mod of TurboWarp', ...htmlWebpackPluginCommon
+                title: 'Versolot - A mod of PenguinMod', ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'], template: 'src/playground/index.ejs', filename: 'fullscreen.html',
-                title: 'PenguinMod - A mod of TurboWarp', ...htmlWebpackPluginCommon
+                title: 'Versolot - A mod of PenguinMod', ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'], template: 'src/playground/index.ejs', filename: 'embed.html',
@@ -188,11 +188,11 @@ module.exports = [
             }),
             new HtmlWebpackPlugin({
                 chunks: ['addon-settings'], template: 'src/playground/simple.ejs', filename: 'addons.html',
-                title: 'Addon Settings - PenguinMod', ...htmlWebpackPluginCommon
+                title: 'Addon Settings - Versolot', ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['credits'], template: 'src/playground/simple.ejs', filename: 'credits.html',
-                title: 'PenguinMod & TurboWarp Credits', noSplash: true, ...htmlWebpackPluginCommon
+                title: 'Versolot, PenguinMod & TurboWarp Credits', noSplash: true, ...htmlWebpackPluginCommon
             }),
             new CopyWebpackPlugin({ patterns: [{ from: 'static', to: '' }] }),
             new CopyWebpackPlugin({ patterns: [{ from: 'node_modules/scratch-blocks/media', to: 'static/blocks-media' }] }),
