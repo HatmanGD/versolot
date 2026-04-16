@@ -184,7 +184,7 @@ module.exports = [
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'], template: 'src/playground/index.ejs', filename: 'embed.html',
-                title: 'Embedded Project - PenguinMod', noTheme: true, ...htmlWebpackPluginCommon
+                title: 'Embedded Project - Versolot', noTheme: true, ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['addon-settings'], template: 'src/playground/simple.ejs', filename: 'addons.html',
